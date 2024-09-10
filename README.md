@@ -9,7 +9,7 @@ Developed by Ari Davidson
 ### Gymnastics and Power
 > | Level | Gymnastics | Power |
 > | ----- | -------- | -------- |
-> | 1     | Cartwheel, Roundoff, Forward/backward roll, Butterfly Kick (B kick) | Standing to Frog/Push-up without pulling the rope, Frog/Push-up to standing without pulling the rope, Basic power skill entrance |
+> | 1     | ⋅⋅* Cartwheel ⋅⋅* Roundoff, Forward/backward roll, Butterfly Kick (B kick) | Standing to Frog/Push-up without pulling the rope, Frog/Push-up to standing without pulling the rope, Basic power skill entrance |
 > | 2     | Front Handspring, Kip, Dive roll | Frog, Push-up, Crab, Split | 
 > | 3     | Aerial, Barani, Back Handspring, ¾ flip1 (front ¾ flip landing in a crab position or back ¾ landing in a push-up position)| One-handed power Frog/Push-up to standing, Frog from Two Feet(no revolutions of the rope), Frog to single bounce cross landing in standing |
 > | 4     | Front Aerial, Front Flip, Back Flip, Butterfly Twist (B twist) | Push-up to Pushup, Frog to Pushup, Punch Frog |
