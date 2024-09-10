@@ -29,7 +29,7 @@ Developed by Ari Davidson
 > | 6     | Split to backwards open single bounce landing in standing (must be full split with rope on the ground before pulling) |
 > | 7     | Sunny D, Darkside, Triple under landing in Frog |
 > | 8     | Moneymaker |
-> ### Gymnastics and Power Modifiers
+### Gymnastics and Power Modifiers
 > +1 for Criss-cross performed with power or gymnastics skills and/or flips
 > +1 to the level of a multiple landing in Push-up, Split or Crab position ()
 > +2 to the level of the starting skill if landing in a frog position
