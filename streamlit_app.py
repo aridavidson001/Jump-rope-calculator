@@ -1,5 +1,5 @@
 import streamlit as st
-
+from st_copy_to_clipboard import st_copy_to_clipboard
 st.title("Jump Rope Freestyle Score Calculator!")
 url = "https://rules.ijru.sport/technical-manual/calculations/freestyle/single-rope"
 st.write("Developed By Ari Davidson. Scoring Calculations Taken From [IJRU Rulebook 4.0.0](%s)" % url)
@@ -76,13 +76,13 @@ def editInput(text):
 
 #prints the output
 def printOutput(totalDifficultyRaw, presentation):
-    st.write("Total Raw Difficulty:", totalDifficultyRaw)
-    st.write("Presentation Max:", presentation[0], ",  Min:", presentation[1])
-    st.write("Entertainment Max:", presentation[2], ",  Min:", presentation[3])
-    st.write("Execution Max:", presentation[4], ",  Min:", presentation[5])
-    st.write("Musicality Max:", presentation[6], ",  Min:", presentation[7])
-    st.write("Creativity Max:", presentation[8], ",  Min:", presentation[9])
-    st.write("Variety Max:", presentation[10], ",  Min:", presentation[11])
+    return(["Total Raw Difficulty:", totalDifficultyRaw, "", ""],
+    ["Presentation Max:", presentation[0], "Min:", presentation[1]],
+    ["Entertainment Max:", presentation[2], "Min:", presentation[3]],
+    ["Execution Max:", presentation[4], "Min:", presentation[5]],
+    ["Musicality Max:", presentation[6], "Min:", presentation[7]],
+    ["Creativity Max:", presentation[8], "Min:", presentation[9]],
+    ["Variety Max:", presentation[10], "Min:", presentation[11]])
 
 input = str(st.text_input(""))
 # Checks if there is an input and if it works
@@ -90,6 +90,12 @@ if(input!= ""):
     try:
         difficulty = calculateDifficulty(editInput(input))
         presentation = calculatePresentation(difficulty)
-        printOutput(difficulty, presentation)
+        col1, col2 = st.columns(2)
+        with col1:
+
+            st.dataframe(printOutput(difficulty, presentation), hide_index=True)
+        with col2:
+            st_copy_to_clipboard(printOutput(difficulty, presentation))
+
     except ValueError:
         st.write("Please check your input and make sure it follows the example, something isn't right!")
