@@ -7,16 +7,16 @@ Developed by Ari Davidson
 
 ## Determining the Level of a Trick
 ### Gymnastics
-> | Level | Examples |
-> | ----- | -------- |
-> | 1     | Cartwheel, Roundoff, Forward/backward roll, Butterfly Kick (B kick) |
-> | 2     | Front Handspring, Kip, Dive roll |
-> | 3     | Aerial, Barani, Back Handspring, ¾ flip1 (front ¾ flip landing in a crab position or back ¾ landing in a push-up position)|
-> | 4     | Front Aerial, Front Flip, Back Flip, Butterfly Twist (B twist) |
-> | 5     | Flips with twists (half or full), Front flip (L4) with double under (+1), ¾ flip (L3) with triple under (+2) |
-> | 6     | Flips with 1.5 or 2 Spins, Kip Whip, Front Handspring Whip, Backflip (L4) with Triple Under (+2), Front Flip (L4) with Triple Under (+2) |
-> | 7     | Back Flip (L4) with a TJ (+2 for triple, +1 for one arm restricted), Kip Whip (L6) with a Cross (+1 for cross with gymnastics) |
-> | 8     | Double Back, Triple Full, Back Flip (L4, +2 in triple under) with an AS Cross (+2) |
+> | Level | Gymnastics | Power |
+> | ----- | -------- | -------- |
+> | 1     | Cartwheel, Roundoff, Forward/backward roll, Butterfly Kick (B kick) | Standing to Frog/Push-up without pulling the rope, Frog/Push-up to standing without pulling the rope, Basic power skill entrance |
+> | 2     | Front Handspring, Kip, Dive roll | Frog, Push-up, Crab, Split | 
+> | 3     | Aerial, Barani, Back Handspring, ¾ flip1 (front ¾ flip landing in a crab position or back ¾ landing in a push-up position)| One-handed power Frog/Push-up to standing, Frog from Two Feet(no revolutions of the rope), Frog to single bounce cross landing in standing |
+> | 4     | Front Aerial, Front Flip, Back Flip, Butterfly Twist (B twist) | Push-up to Pushup, Frog to Pushup, Punch Frog |
+> | 5     | Flips with twists (half or full), Front flip (L4) with double under (+1), ¾ flip (L3) with triple under (+2) | One-handed Punch Frog, Double Under Frog, Push-Up to Push-Up or Belch with double under or cross |
+> | 6     | Flips with 1.5 or 2 Spins, Kip Whip, Front Handspring Whip, Backflip (L4) with Triple Under (+2), Front Flip (L4) with Triple Under (+2) | Split to backwards open single bounce landing in standing (must be full split with rope on the ground before pulling) |
+> | 7     | Back Flip (L4) with a TJ (+2 for triple, +1 for one arm restricted), Kip Whip (L6) with a Cross (+1 for cross with gymnastics) | Sunny D, Darkside, Triple under landing in Frog |
+> | 8     | Double Back, Triple Full, Back Flip (L4, +2 in triple under) with an AS Cross (+2) | Moneymaker |
 > 
 ### Power
 > | Level | Examples |
