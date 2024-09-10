@@ -56,8 +56,8 @@ Developed by Ari Davidson
 > 
 > +1 per layer for go-go's/crazy criss-cross (one hand crosses twice across body, leg or arm without uncrossing)
 > 
- +1 (max +3) per extra wrap layer for wraps
- 
+> +1 (max +3) per extra wrap layer for wraps
+> 
 > +1 for changing the direction of rope movement in the air (Note, skills like EK where the rope continues in the same direction but the athlete turns doesn't count)
 > 
 > +1 for switching handles
