@@ -46,12 +46,12 @@ Developed by Ari Davidson
 > | 7     | Quintuple Under (L4) with under-the-leg mic (+2) caught in one handed restricted position (+1), Quintuple (L4) Under 360° (+1) with backward leg-over cross (+1) and forward leg-over cross (+1) |
 > | 8     | Quintuple with under-the-leg mic caught in a two handed restriction, Backwards quintuple under (L4) TS (+2) open CL (+1) open AS (+1) |
 >
-###Multiples Modifiers
+### Multiples Modifiers
 > +1 for body rotation more than 270° in twist or flip direction (for example, EK, BC, full twist)
 > 
 > +1 for every additional 180° turned in the air beyond a 360° turn when jumped. (540° = total +2, 720° = total +3, 900° = total +4, etc.)
 > 
-###Rope Manipulation Modifiers
+### Rope Manipulation Modifiers
 > +1 for switch crosses (AS×AS, criss-cross×criss-cross, AS×CL as long as the arm on top changes, etc.)
 > 
 > +1 per layer for go-go's/crazy criss-cross (one hand crosses twice across body, leg or arm without uncrossing)
