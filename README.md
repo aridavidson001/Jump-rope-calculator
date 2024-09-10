@@ -33,15 +33,39 @@ Developed by Ari Davidson
 > 
 > -1 for gymnastics with rope held with only one hand and not jumping the rope (for example, one-hand handspring (L2) with both handles in one hand (-1) = L1; front aerial (L3) with both handles in one hand (-1) = L2)
 >
-> ### Multiples
-> | Level | Multiples |
-> | ----- | -------- |
-> | 1     | Double Under |
-> | 2     | Triple Under, Double Under with One-arm Restriction | 
-> | 3     | Quadruple Under, Triple Under TJ (Triple Under toad), Double Under AS, Double Under mic, Triple Under EK (360° turn performed in a triple under) |
-> | 4     | Quintuple Under, Quadruple Under TJ, Triple Under EB TJ, Triple Under AS, Double Under AS×AS |
+### Multiples and Rope Manipulation
+> | Level | Multiples | Rope Manipulation |
+> | ----- | -------- | ----- |
+> | 0.5   |          | Foot work (performed at a slow pace), Criss Cross, Basic arm wrap | 
+> | 1     | Double Under | Restricted side-swing, Toad, Crougar, EB, Basic rope release, Foot work (performed at a fast pace) |
+> | 2     | Triple Under, Double Under with One-arm Restriction | AS, CL, TS, Elephant toad, KN, EM, Caboose, Mic release, Crougar wrap |
+> | 3     | Quadruple Under, Triple Under TJ (Triple Under toad), Double Under AS, Double Under mic, Triple Under EK (360° turn performed in a triple under) | Lasso release caught in the air, Caboose jumping out to a forward single-bounce ("forward French trick"), One-arm restriction with a double wrap (For example, Toad jumped with double wrap), AS go-go/crazy-cross, Catching a mic release in a one arm restriction |
+> | 4     | Quintuple Under, Quadruple Under TJ, Triple Under EB TJ, Triple Under AS, Double Under AS×AS |Caboose jumping out in backwards double under ("Backward French-trick"), Catching mic release in backward two-arm restriction |
 > | 5     | Sextuple Under, Quintuple Under EB, Quadruple Under CL, Hummingbird (Level 3 for quadruple under, +1 for restricted side swing +1 for wrap), Double Under (L1) AS (+2) switch (+1) TS (+1), Double Under (L1) AS (+2) Switch (+1) CL (+1) |
 > | 6     | Quintuple Under AS, Triple Under (L2) AS (+2) CL (+1) TS (+1), Quintuple EB open AS, Quadruple Under AS×AS, Backward Quadruple Under AS open, landing in AS |
 > | 7     | Quintuple Under (L4) with under-the-leg mic (+2) caught in one handed restricted position (+1), Quintuple (L4) Under 360° (+1) with backward leg-over cross (+1) and forward leg-over cross (+1) |
 > | 8     | Quintuple with under-the-leg mic caught in a two handed restriction, Backwards quintuple under (L4) TS (+2) open CL (+1) open AS (+1) |
+>
+###Multiples Modifiers
+> +1 for body rotation more than 270° in twist or flip direction (for example, EK, BC, full twist)
 > 
+> +1 for every additional 180° turned in the air beyond a 360° turn when jumped. (540° = total +2, 720° = total +3, 900° = total +4, etc.)
+> 
+###Rope Manipulation Modifiers
+> +1 for switch crosses (AS×AS, criss-cross×criss-cross, AS×CL as long as the arm on top changes, etc.)
+> 
+> +1 per layer for go-go's/crazy criss-cross (one hand crosses twice across body, leg or arm without uncrossing)
+> 
+ +1 (max +3) per extra wrap layer for wraps
+ 
+> +1 for changing the direction of rope movement in the air (Note, skills like EK where the rope continues in the same direction but the athlete turns doesn't count)
+> 
+> +1 for switching handles
+> 
+> +1 for transition jumps (jumping a one-hand restricted skill and in one jump, jumping the opposite side one-hand restricted skill, such as crougar-crougar)
+> 
+> +1 for each restricted arm catching the release when catching a release in a one-arm restricted position
+> 
+> +1 to the release for releasing a handle in a restricted position if, and only if, the hand is completely behind the body (behind the back or behind both legs)
+> 
+> +1 for catching a release with something other than a hand (such as scooping the rope, squeezing it with a body part, or landing the rope on a foot, shoulder, or similar, jumping the rope with the rope caught on a body part)
