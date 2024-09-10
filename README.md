@@ -31,9 +31,15 @@ Developed by Ari Davidson
 > | 8     | Moneymaker |
 ### Gymnastics and Power Modifiers
 > +1 for Criss-cross performed with power or gymnastics skills and/or flips
+> 
 > +1 to the level of a multiple landing in Push-up, Split or Crab position ()
+> 
 > +2 to the level of the starting skill if landing in a frog position
+> 
 > +1 for assisted flips without supporting interaction
+> 
 > -1 for assisted flips with supporting interactions all the way around
+> 
 > +1 for every 90-degree turn in power when the rope is pulled (90° = +1, 180° = +2, 270° = +3, etc.)
+> 
 > -1 for gymnastics with rope held with only one hand and not jumping the rope (for example, one-hand handspring (L2) with both handles in one hand (-1) = L1; front aerial (L3) with both handles in one hand (-1) = L2)
