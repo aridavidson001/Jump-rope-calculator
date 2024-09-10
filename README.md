@@ -6,9 +6,9 @@ A useful program for calculating the score of a jump rope routine under the IJRU
 Developed by Ari Davidson
 
 # Determining the Level of a Trick
-| Level | Examples |
-| ----- | -------- |
-| 0.5   | Cross    |
-| 1     | Single-arm Restriction |
-| 2     | Double-arm Restriction |
-| 3     |                        |
+> | Level | Examples |
+> | ----- | -------- |
+> | 0.5   | Cross    |
+> | 1     | Single-arm Restriction |
+> | 2     | Double-arm Restriction |
+> | 3     |                        |
