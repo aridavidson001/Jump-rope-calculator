@@ -5,7 +5,8 @@ A useful program for calculating the score of a jump rope routine under the IJRU
 
 Developed by Ari Davidson
 
-# Determining the Level of a Trick
+## Determining the Level of a Trick
+# Power
 > | Level | Examples |
 > | ----- | -------- |
 > | 0.5   | Cross    |
