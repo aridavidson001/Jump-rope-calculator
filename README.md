@@ -32,3 +32,16 @@ Developed by Ari Davidson
 > +1 for every 90-degree turn in power when the rope is pulled (90° = +1, 180° = +2, 270° = +3, etc.)
 > 
 > -1 for gymnastics with rope held with only one hand and not jumping the rope (for example, one-hand handspring (L2) with both handles in one hand (-1) = L1; front aerial (L3) with both handles in one hand (-1) = L2)
+>
+> ### Multiples
+> | Level | Multiples |
+> | ----- | -------- |
+> | 1     | Double Under |
+> | 2     | Triple Under, Double Under with One-arm Restriction | 
+> | 3     | Quadruple Under, Triple Under TJ (Triple Under toad), Double Under AS, Double Under mic, Triple Under EK (360° turn performed in a triple under) |
+> | 4     | Quintuple Under, Quadruple Under TJ, Triple Under EB TJ, Triple Under AS, Double Under AS×AS |
+> | 5     | Sextuple Under, Quintuple Under EB, Quadruple Under CL, Hummingbird (Level 3 for quadruple under, +1 for restricted side swing +1 for wrap), Double Under (L1) AS (+2) switch (+1) TS (+1), Double Under (L1) AS (+2) Switch (+1) CL (+1) |
+> | 6     | Quintuple Under AS, Triple Under (L2) AS (+2) CL (+1) TS (+1), Quintuple EB open AS, Quadruple Under AS×AS, Backward Quadruple Under AS open, landing in AS |
+> | 7     | Quintuple Under (L4) with under-the-leg mic (+2) caught in one handed restricted position (+1), Quintuple (L4) Under 360° (+1) with backward leg-over cross (+1) and forward leg-over cross (+1) |
+> | 8     | Quintuple with under-the-leg mic caught in a two handed restriction, Backwards quintuple under (L4) TS (+2) open CL (+1) open AS (+1) |
+> 
