@@ -8,4 +8,7 @@ Developed by Ari Davidson
 # Determining the Level of a Trick
 | Level | Examples |
 | ----- | -------- |
-|: 0.5 :|: Cross :|
+| 0.5   | Cross    |
+| 1     | Single-arm Restriction |
+| 2     | Double-arm Restriction |
+| 3     |                        |
