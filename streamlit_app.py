@@ -75,12 +75,12 @@ def editInput(text):
 #prints the output
 def printOutput(totalDifficultyRaw, presentation):
     st.write("Total Raw Difficulty:", totalDifficultyRaw)
-    st.write("All Presentation:", presentation[0], ", ", presentation[1])
-    st.write("Just Entertainment:", presentation[2], ", ", presentation[3])
-    st.write("Just Execution:", presentation[4], ", ", presentation[5])
-    st.write("Just Musicality:", presentation[6], ",", presentation[7])
-    st.write("Just Creativity:", presentation[8], ",", presentation[9])
-    st.write("Just Variety:", presentation[10], ", ", presentation[11])
+    st.write("Presentation Max:", presentation[0], ",  Min:", presentation[1])
+    st.write("Entertainment Max:", presentation[2], ",  Min:", presentation[3])
+    st.write("Execution Max:", presentation[4], ",  Min:", presentation[5])
+    st.write("Musicality Max:", presentation[6], ",  Min:", presentation[7])
+    st.write("Creativity Max:", presentation[8], ",  Min:", presentation[9])
+    st.write("Variety Max:", presentation[10], ",  Min:", presentation[11])
 
 input = str(st.text_input(""))
 # Checks if there is an input and if it works
