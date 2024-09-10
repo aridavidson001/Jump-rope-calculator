@@ -6,7 +6,7 @@ A useful program for calculating the score of a jump rope routine under the IJRU
 Developed by Ari Davidson
 
 ## Determining the Level of a Trick
-### Gymnastics
+### Gymnastics and Power
 > | Level | Gymnastics | Power |
 > | ----- | -------- | -------- |
 > | 1     | Cartwheel, Roundoff, Forward/backward roll, Butterfly Kick (B kick) | Standing to Frog/Push-up without pulling the rope, Frog/Push-up to standing without pulling the rope, Basic power skill entrance |
@@ -18,17 +18,6 @@ Developed by Ari Davidson
 > | 7     | Back Flip (L4) with a TJ (+2 for triple, +1 for one arm restricted), Kip Whip (L6) with a Cross (+1 for cross with gymnastics) | Sunny D, Darkside, Triple under landing in Frog |
 > | 8     | Double Back, Triple Full, Back Flip (L4, +2 in triple under) with an AS Cross (+2) | Moneymaker |
 > 
-### Power
-> | Level | Examples |
-> | ----- | -------- |
-> | 1     | Standing to Frog/Push-up without pulling the rope, Frog/Push-up to standing without pulling the rope, Basic power skill entrance |
-> | 2     | Frog, Push-up, Crab, Split |
-> | 3     | One-handed power Frog/Push-up to standing, Frog from Two Feet(no revolutions of the rope), Frog to single bounce cross landing in standing |
-> | 4     | Push-up to Pushup, Frog to Pushup, Punch Frog |
-> | 5     | One-handed Punch Frog, Double Under Frog, Push-Up to Push-Up or Belch with double under or cross |
-> | 6     | Split to backwards open single bounce landing in standing (must be full split with rope on the ground before pulling) |
-> | 7     | Sunny D, Darkside, Triple under landing in Frog |
-> | 8     | Moneymaker |
 ### Gymnastics and Power Modifiers
 > +1 for Criss-cross performed with power or gymnastics skills and/or flips
 > 
