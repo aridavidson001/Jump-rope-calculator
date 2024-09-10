@@ -6,9 +6,7 @@ A useful program for calculating the score of a jump rope routine under the IJRU
 Developed by Ari Davidson
 
 ## Determining the Level of a Trick
-<details>
 ### Gymnastics and Power
-<br>
 > | Level | Gymnastics | Power |
 > | ----- | -------- | -------- |
 > | 1     | Cartwheel, Roundoff, Forward/backward roll, Butterfly Kick (B kick) | Standing to Frog/Push-up without pulling the rope, Frog/Push-up to standing without pulling the rope, Basic power skill entrance |
@@ -20,7 +18,6 @@ Developed by Ari Davidson
 > | 7     | Back Flip (L4) with a TJ (+2 for triple, +1 for one arm restricted), Kip Whip (L6) with a Cross (+1 for cross with gymnastics) | Sunny D, Darkside, Triple under landing in Frog |
 > | 8     | Double Back, Triple Full, Back Flip (L4, +2 in triple under) with an AS Cross (+2) | Moneymaker |
 > 
-  </details>
 ### Gymnastics and Power Modifiers
 > +1 for Criss-cross performed with power or gymnastics skills and/or flips
 > 
