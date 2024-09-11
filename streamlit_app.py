@@ -86,7 +86,7 @@ def printOutput(totalDifficultyRaw, presentation):
     ["Creativity Max:", presentation[8], "Min:", presentation[9]],
     ["Variety Max:", presentation[10], "Min:", presentation[11]])
 
-input = str(st.text_input("Input difficulty levels separated by commas. (Example: 3, 5, 6)"))
+input = str(st.text_input("", placeholder="Input difficulty levels separated by commas. (Example: 3, 4, 5)"))
 # Checks if there is an input and if it works
 if(input!= ""):
     try:
@@ -97,12 +97,20 @@ if(input!= ""):
     except ValueError:
         st.write("Please check your input and make sure it follows the example, something isn't right!")
 st.markdown('''
-
-## Rule Change in Calculating Difficulty Score
+### Rule Change in Calculating Difficulty Score
 The difficulty score will be the average of the power difficulty score, the wraps/releases difficulty score, and the multiples difficulty score
 
             
-This changes the equation for calculating the difficulty of a trick from $\ D = 0.1*1.5^x $ to $\ D = \dfrac{0.1*1.5^x}{3} $\
+This effectively changes the equation for calculating the difficulty of a trick from 
+            
+$\ D = 0.1*1.5^x $ 
+            
+to 
+            
+$\ D = \dfrac{0.1*1.5^x}{3} $\
+            
+
+As a result, these are the new point values for different levels compared to the old point values
             
 | Level | Old Point Value | New Point Value|
 | ---  | --- | --- |
