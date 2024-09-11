@@ -39,7 +39,7 @@ def calculateDifficulty(input):
 def calculatePresentation(totalScore):
     maxWithPresentation = round(
         (totalScore + (totalScore * minPresentationPercent)), 2)
-    minWithPresentation = round((totalScore * minPresentationPercent), 2)
+    minWithPresentation = round(totalScore - (totalScore * minPresentationPercent), 2)
     maxWithEntertainment = round(
         (totalScore + (totalScore * minEntertainmentPercent)), 2)
     minWithEntertainment = round(
