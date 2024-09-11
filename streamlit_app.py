@@ -106,7 +106,7 @@ st.markdown('''
 ## Determining the Level of a Trick
 Rules and examples taken from [IJRU Judging Manual 4.0.0](https://rules.ijru.sport/judging-manual/freestyle/single-rope/difficulty)
 
-### Gymnastics and Power</summary
+### Gymnastics and Power
 
 > | Level | Gymnastics | Power |
 > | ----- | -------- | -------- |
