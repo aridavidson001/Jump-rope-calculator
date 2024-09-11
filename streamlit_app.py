@@ -104,7 +104,7 @@ st.markdown('''
 The difficulty score will be the average of the power difficulty score, the wraps/releases difficulty score, and the multiples difficulty score
 
             
-This changes the equation for calculating difficulty from $\ D = 0.1*1.5^x $ to $\ D = \dfrac{0.1*1.5^x}{3} $\
+This changes the equation for calculating the difficulty of a trick from $\ D = 0.1*1.5^x $ to $\ D = \dfrac{0.1*1.5^x}{3} $\
             
 | Level | Old Point Value | New Point Value|
 | ---  | --- | --- |
@@ -143,7 +143,7 @@ This changes the equation for calculating difficulty from $\ D = 0.1*1.5^x $ to 
 > 
 > - -1 for assisted flips with supporting interactions all the way around
 > 
-> - +1 for every 90-degree turn in power when the rope is pulled (90° = +1, 180° = +2, 270° = +3, etc.)
+> - +1 for every 90-degree turn in power when the rope is pulled (90° = +1,  180° = +2,  270° = +3,  etc.)
 > 
 > - -1 for gymnastics with rope held with only one hand and not jumping the rope (for example, one-hand handspring (L2) with both handles in one hand (-1) = L1; front aerial (L3) with both handles in one hand (-1) = L2)
 >
@@ -164,7 +164,7 @@ This changes the equation for calculating difficulty from $\ D = 0.1*1.5^x $ to 
 ### Multiples Modifiers
 > - +1 for body rotation more than 270° in twist or flip direction (for example, EK, BC, full twist)
 > 
-> - +1 for every additional 180° turned in the air beyond a 360° turn when jumped. (540° = total +2, 720° = total +3, 900° = total +4, etc.)
+> - +1 for every additional 180° turned in the air beyond a 360° turn when jumped. (540° = total +2,  720° = total +3,  900° = total +4,  etc.)
 > 
 ### Rope Manipulation Modifiers
 > - +1 for switch crosses (AS×AS, criss-cross×criss-cross, AS×CL as long as the arm on top changes, etc.)
