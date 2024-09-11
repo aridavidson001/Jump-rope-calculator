@@ -2,7 +2,8 @@ import streamlit as st
 
 st.title("Jump Rope Freestyle Score Calculator!")
 url = "https://rules.ijru.sport/technical-manual/calculations/freestyle/single-rope"
-st.write("Developed By Ari Davidson. Scoring Calculations Taken From [IJRU Rulebook 4.0.0](%s)" % url)
+st.subheader("Scoring Calculations and Rules Taken From [IJRU Rulebook 4.0.0](%s)" % url)
+st.write("Developed By Ari Davidson.")
 st.write("Input difficulty levels separated by commas")
 st.write("(Example: 3, 5, 6)")
 
@@ -99,7 +100,6 @@ if(input!= ""):
         st.write("Please check your input and make sure it follows the example, something isn't right!")
 st.markdown('''
 
-Rules and examples taken from [IJRU Judging Manual 4.0.0](https://rules.ijru.sport/judging-manual/freestyle/single-rope/difficulty)
 ## Rule Change in Calculating Difficulty Score
 The difficulty score will be the average of the power difficulty score, the wraps/releases difficulty score, and the multiples difficulty score
 
