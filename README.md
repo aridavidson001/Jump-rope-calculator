@@ -18,7 +18,7 @@ Rules and examples taken from [IJRU Judging Manual 4.0.0](https://rules.ijru.spo
 > | 4     | Front Aerial, Front Flip, Back Flip, Butterfly Twist (B twist) | Push-up to Pushup, Frog to Pushup, Punch Frog |
 > | 5     | Flips with twists (half or full), Front flip with double under, ¾ flip  with triple under  | One-handed Punch Frog, Double Under Frog, Push-Up to Push-Up or Belch with double under or cross |
 > | 6     | Flips with 1.5 or 2 Spins, Kip Whip, Front Handspring Whip, Backflip with Triple Under, Front Flip with Triple Under | Split to backwards open single bounce landing in standing (must be full split with rope on the ground before pulling) |
-> | 7     | Back Flip with a TJ , Kip Whip with a Cross  | Sunny D, Darkside, Triple under landing in Frog |
+> | 7     | Back Flip with a TJ, Kip Whip with a Cross  | Sunny D, Darkside, Triple under landing in Frog |
 > | 8     | Double Back, Triple Full, Back Flip Triple Under with an AS Cross | Moneymaker |
 > 
 ### Gymnastics and Power Modifiers
