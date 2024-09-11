@@ -86,7 +86,7 @@ def printOutput(totalDifficultyRaw, presentation):
     ["Creativity Max:", presentation[8], "Min:", presentation[9]],
     ["Variety Max:", presentation[10], "Min:", presentation[11]])
 
-input = str(st.text_input("", placeholder="Input difficulty levels separated by commas. (Example: 3, 4, 5)"))
+input = str(st.text_input("", placeholder="Input difficulty levels(2, 3, 4, etc.)"))
 # Checks if there is an input and if it works
 if(input!= ""):
     try:
