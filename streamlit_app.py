@@ -35,15 +35,16 @@ def calculateDifficulty(input):
 def calculatePresentation(totalScore):
     maxWithPresentation = round(
         (totalScore + (totalScore * minPresentationPercent)), 2)
-    minWithPresentation = round((totalScore * minPresentationPercent), 2)
+    minWithPresentation = round(
+        (totalScore - (totalScore * minPresentationPercent)), 2)
     maxWithEntertainment = round(
         (totalScore + (totalScore * minEntertainmentPercent)), 2)
     minWithEntertainment = round(
         (totalScore - (totalScore * minEntertainmentPercent)), 2)
-    maxWithExecution = round((totalScore + (totalScore * minExecutionPercent)),
-                             2)
-    minWithExecution = round((totalScore - (totalScore * minExecutionPercent)),
-                             2)
+    maxWithExecution = round(
+        (totalScore + (totalScore * minExecutionPercent)),  2)
+    minWithExecution = round(
+        (totalScore - (totalScore * minExecutionPercent)), 2)
     maxWithMusicality = round(
         (totalScore + (totalScore * minMusicalityPercent)), 2)
     minWithMusicality = round(
@@ -52,8 +53,10 @@ def calculatePresentation(totalScore):
         (totalScore + (totalScore * minCreativityPercent)), 2)
     minWithCreativity = round(
         (totalScore - (totalScore * minCreativityPercent)), 2)
-    maxWithVariety = round((totalScore + (totalScore * minVarietyPercent)), 2)
-    minWithVariety = round((totalScore - (totalScore * minVarietyPercent)), 2)
+    maxWithVariety = round(
+        (totalScore + (totalScore * minVarietyPercent)), 2)
+    minWithVariety = round(
+        (totalScore - (totalScore * minVarietyPercent)), 2)
 
     return ([
         maxWithPresentation, minWithPresentation, maxWithEntertainment,
