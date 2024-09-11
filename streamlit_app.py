@@ -4,8 +4,6 @@ st.title("Jump Rope Freestyle Score Calculator!")
 url = "https://rules.ijru.sport/technical-manual/calculations/freestyle/single-rope"
 st.subheader("Scoring Calculations and Rules Taken From [IJRU Rulebook 4.0.0](%s)" % url)
 st.write("Developed and Maintained By Ari Davidson")
-st.write("Input difficulty levels separated by commas")
-st.write("(Example: 3, 5, 6)")
 
 
 minPresentationPercent = 0.60
@@ -88,7 +86,7 @@ def printOutput(totalDifficultyRaw, presentation):
     ["Creativity Max:", presentation[8], "Min:", presentation[9]],
     ["Variety Max:", presentation[10], "Min:", presentation[11]])
 
-input = str(st.text_input(""))
+input = str(st.text_input("Input difficulty levels separated by commas. (Example: 3, 5, 6)"))
 # Checks if there is an input and if it works
 if(input!= ""):
     try:
