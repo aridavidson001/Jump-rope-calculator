@@ -1,5 +1,5 @@
 import streamlit as st
-from st_copy_to_clipboard import st_copy_to_clipboard
+
 st.title("Jump Rope Freestyle Score Calculator!")
 url = "https://rules.ijru.sport/technical-manual/calculations/freestyle/single-rope"
 st.write("Developed By Ari Davidson. Scoring Calculations Taken From [IJRU Rulebook 4.0.0](%s)" % url)
@@ -30,7 +30,8 @@ def calculateDifficulty(input):
     for trick in input:
         totalDifficultyRaw = round(
             (totalDifficultyRaw + getPointValue(int(trick))), 2)
-    return (totalDifficultyRaw)
+    averagedDifficulty = round((totalDifficultyRaw/3), 2)
+    return (averagedDifficulty)
 
 
 #calculates the minimum and maximum with presentation and it's parts
@@ -78,7 +79,7 @@ def editInput(text):
 
 #prints the output
 def printOutput(totalDifficultyRaw, presentation):
-    return(["Total Raw Difficulty:", totalDifficultyRaw, "", ""],
+    return(["Averaged Difficulty Score:", totalDifficultyRaw, "", ""],
     ["Presentation Max:", presentation[0], "Min:", presentation[1]],
     ["Entertainment Max:", presentation[2], "Min:", presentation[3]],
     ["Execution Max:", presentation[4], "Min:", presentation[5]],
@@ -92,19 +93,31 @@ if(input!= ""):
     try:
         difficulty = calculateDifficulty(editInput(input))
         presentation = calculatePresentation(difficulty)
-        col1, col2 = st.columns(2)
-        with col1:
-
-            st.dataframe(printOutput(difficulty, presentation), hide_index=True)
-        with col2:
-            st_copy_to_clipboard(printOutput(difficulty, presentation))
+        st.dataframe(printOutput(difficulty, presentation), hide_index=True)
 
     except ValueError:
         st.write("Please check your input and make sure it follows the example, something isn't right!")
 st.markdown('''
 
-## Determining the Level of a Trick
 Rules and examples taken from [IJRU Judging Manual 4.0.0](https://rules.ijru.sport/judging-manual/freestyle/single-rope/difficulty)
+## Rule Change in Calculating Difficulty Score
+The difficulty score will be the average of the power difficulty score, the wraps/releases difficulty score, and the multiples difficulty score
+
+            
+This changes the equation for calculating difficulty from $\ D = 0.1*1.5^x $ to $\ D = \dfrac{0.1*1.5^x}{3} $\
+            
+| Level | Old Point Value | New Point Value|
+| ---  | --- | --- |
+| 0.5  | 0.12 | 0.04 |
+| 1 | 0.15 | 0.05 |   
+| 2 | 0.23 | 0.08 |   
+| 3 | 0.34 | 0.11 |   
+| 4 | 0.51 | 0.17 |   
+| 5 | 0.76 | 0.25 |   
+| 6 | 1.14 | 0.38 |   
+| 7 | 1.76 | 0.57 |   
+| 8 | 2.56 | 0.85 |   
+# Determining the Level of a Trick
 
 ### Gymnastics and Power
 
