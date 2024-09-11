@@ -22,19 +22,19 @@ Rules and examples taken from [IJRU Judging Manual 4.0.0](https://rules.ijru.spo
 > | 8     | Double Back, Triple Full, Back Flip (L4, +2 in triple under) with an AS Cross (+2) | Moneymaker |
 > 
 ### Gymnastics and Power Modifiers
-> +1 for Criss-cross performed with power or gymnastics skills and/or flips
+> - +1 for Criss-cross performed with power or gymnastics skills and/or flips
 > 
-> +1 to the level of a multiple landing in Push-up, Split or Crab position ()
+> - +1 to the level of a multiple landing in Push-up, Split or Crab position ()
 > 
-> +2 to the level of the starting skill if landing in a frog position
+> - +2 to the level of the starting skill if landing in a frog position
 > 
-> +1 for assisted flips without supporting interaction
+> - +1 for assisted flips without supporting interaction
 > 
-> -1 for assisted flips with supporting interactions all the way around
+> - -1 for assisted flips with supporting interactions all the way around
 > 
-> +1 for every 90-degree turn in power when the rope is pulled (90° = +1, 180° = +2, 270° = +3, etc.)
+> - +1 for every 90-degree turn in power when the rope is pulled (90° = +1, 180° = +2, 270° = +3, etc.)
 > 
-> -1 for gymnastics with rope held with only one hand and not jumping the rope (for example, one-hand handspring (L2) with both handles in one hand (-1) = L1; front aerial (L3) with both handles in one hand (-1) = L2)
+> - -1 for gymnastics with rope held with only one hand and not jumping the rope (for example, one-hand handspring (L2) with both handles in one hand (-1) = L1; front aerial (L3) with both handles in one hand (-1) = L2)
 >
 --------------------------------------------------
 ### Multiples and Rope Manipulation
@@ -51,25 +51,25 @@ Rules and examples taken from [IJRU Judging Manual 4.0.0](https://rules.ijru.spo
 > | 8     | Quintuple with under-the-leg mic caught in a two handed restriction, Backwards quintuple under (L4) TS (+2) open CL (+1) open AS (+1) |
 >
 ### Multiples Modifiers
-> +1 for body rotation more than 270° in twist or flip direction (for example, EK, BC, full twist)
+> - +1 for body rotation more than 270° in twist or flip direction (for example, EK, BC, full twist)
 > 
-> +1 for every additional 180° turned in the air beyond a 360° turn when jumped. (540° = total +2, 720° = total +3, 900° = total +4, etc.)
+> - +1 for every additional 180° turned in the air beyond a 360° turn when jumped. (540° = total +2, 720° = total +3, 900° = total +4, etc.)
 > 
 ### Rope Manipulation Modifiers
-> +1 for switch crosses (AS×AS, criss-cross×criss-cross, AS×CL as long as the arm on top changes, etc.)
+> - +1 for switch crosses (AS×AS, criss-cross×criss-cross, AS×CL as long as the arm on top changes, etc.)
 > 
-> +1 per layer for go-go's/crazy criss-cross (one hand crosses twice across body, leg or arm without uncrossing)
+> - +1 per layer for go-go's/crazy criss-cross (one hand crosses twice across body, leg or arm without uncrossing)
 > 
-> +1 (max +3) per extra wrap layer for wraps
+> - +1 (max +3) per extra wrap layer for wraps
 > 
-> +1 for changing the direction of rope movement in the air (Note, skills like EK where the rope continues in the same direction but the athlete turns doesn't count)
+> - +1 for changing the direction of rope movement in the air (Note, skills like EK where the rope continues in the same direction but the athlete turns doesn't count)
 > 
 > +1 for switching handles
 > 
-> +1 for transition jumps (jumping a one-hand restricted skill and in one jump, jumping the opposite side one-hand restricted skill, such as crougar-crougar)
+> - +1 for transition jumps (jumping a one-hand restricted skill and in one jump, jumping the opposite side one-hand restricted skill, such as crougar-crougar)
 > 
-> +1 for each restricted arm catching the release when catching a release in a one-arm restricted position
+> - +1 for each restricted arm catching the release when catching a release in a one-arm restricted position
 > 
-> +1 to the release for releasing a handle in a restricted position if, and only if, the hand is completely behind the body (behind the back or behind both legs)
+> - +1 to the release for releasing a handle in a restricted position if, and only if, the hand is completely behind the body (behind the back or behind both legs)
 > 
-> +1 for catching a release with something other than a hand (such as scooping the rope, squeezing it with a body part, or landing the rope on a foot, shoulder, or similar, jumping the rope with the rope caught on a body part)
+> - +1 for catching a release with something other than a hand (such as scooping the rope, squeezing it with a body part, or landing the rope on a foot, shoulder, or similar, jumping the rope with the rope caught on a body part)
