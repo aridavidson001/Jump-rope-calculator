@@ -85,8 +85,8 @@ def printOutput(totalDifficultyRaw, presentation):
     ["Musicality Max:", presentation[6], "Min:", presentation[7]],
     ["Creativity Max:", presentation[8], "Min:", presentation[9]],
     ["Variety Max:", presentation[10], "Min:", presentation[11]])
-
-input = str(st.text_input("", placeholder="Input difficulty levels(2, 3, 4, etc.)"))
+st.subheader("Calculator")
+input = str(st.text_input(label="", placeholder="Input difficulty levels(2, 3, 4, etc.)"))
 # Checks if there is an input and if it works
 if(input!= ""):
     try:
@@ -96,6 +96,11 @@ if(input!= ""):
 
     except ValueError:
         st.write("Please check your input and make sure it follows the example, something isn't right!")
+else:
+    difficulty = calculateDifficulty(editInput("0"))
+    presentation = calculatePresentation(difficulty)
+    st.dataframe(printOutput(difficulty, presentation), hide_index=True)
+    print(printOutput(difficulty, presentation))
 st.markdown('''
 ### Rule Change in Calculating Difficulty Score
 The difficulty score will be the average of the power difficulty score, the wraps/releases difficulty score, and the multiples difficulty score
