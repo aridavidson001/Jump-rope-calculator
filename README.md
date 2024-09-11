@@ -36,7 +36,7 @@ Rules and examples taken from [IJRU Judging Manual 4.0.0](https://rules.ijru.spo
 > 
 > -1 for gymnastics with rope held with only one hand and not jumping the rope (for example, one-hand handspring (L2) with both handles in one hand (-1) = L1; front aerial (L3) with both handles in one hand (-1) = L2)
 >
-> ----
+--------------------------------------------------
 ### Multiples and Rope Manipulation
 > | Level | Multiples | Rope Manipulation |
 > | ----- | -------- | ----- |
