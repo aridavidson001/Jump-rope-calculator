@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Jump Rope Freestyle Score Calculator!")
 url = "https://rules.ijru.sport/technical-manual/calculations/freestyle/single-rope"
 st.subheader("Scoring Calculations and Rules Taken From [IJRU Rulebook 4.0.0](%s)" % url)
-st.write("Developed By Ari Davidson.")
+st.write("Developed and Maintained By Ari Davidson")
 st.write("Input difficulty levels separated by commas")
 st.write("(Example: 3, 5, 6)")
 
