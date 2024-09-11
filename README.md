@@ -7,10 +7,9 @@ Developed by Ari Davidson
 
 ## Determining the Level of a Trick
 Rules and examples taken from [IJRU Judging Manual 4.0.0](https://rules.ijru.sport/judging-manual/freestyle/single-rope/difficulty)
-<details>
-<summary> ### Gymnastics and Power</summary>
-  
-</details>
+
+### Gymnastics and Power</summary
+
 > | Level | Gymnastics | Power |
 > | ----- | -------- | -------- |
 > | 1     | Cartwheel, Roundoff, Forward/backward roll, Butterfly Kick (B kick) | Standing to Frog/Push-up without pulling the rope, Frog/Push-up to standing without pulling the rope, Basic power skill entrance |
