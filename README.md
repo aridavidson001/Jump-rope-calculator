@@ -64,7 +64,7 @@ Rules and examples taken from [IJRU Judging Manual 4.0.0](https://rules.ijru.spo
 > 
 > - +1 for changing the direction of rope movement in the air (Note, skills like EK where the rope continues in the same direction but the athlete turns doesn't count)
 > 
-> +1 for switching handles
+> - +1 for switching handles
 > 
 > - +1 for transition jumps (jumping a one-hand restricted skill and in one jump, jumping the opposite side one-hand restricted skill, such as crougar-crougar)
 > 
