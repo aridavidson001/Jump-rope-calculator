@@ -4,7 +4,6 @@ st.title("Jump Rope Freestyle Score Calculator!")
 url = "https://rules.ijru.sport/technical-manual/calculations/freestyle/single-rope"
 st.write("Developed By Ari Davidson. Scoring Calculations Taken From [IJRU Rulebook 4.0.0](%s)" % url)
 st.write("Input difficulty levels separated by commas")
-st.("Need help figuring out the level?")
 st.write("(Example: 3, 5, 6)")
 
 
