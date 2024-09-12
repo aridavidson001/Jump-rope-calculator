@@ -197,7 +197,7 @@ st.header("Determining the Level of a Trick")
 st.subheader("Gymnastics and Power")
 gymnasticsAndPower = pd.DataFrame(
                                     [
-                                        [1, " - Cartwheel <br> Roundoff <br> Forward/backward roll <br> Butterfly Kick (B kick)", 
+                                        [1, "Cartwheel <br> Roundoff <br> Forward/backward roll <br> Butterfly Kick (B kick)", 
                                         "Standing to Frog/Push-up without pulling the rope <br> Frog/Push-up to standing without pulling the rope <br> Basic power skill entrance"],
                                         [2, "Front Handspring <br> Kip <br> Dive roll", 
                                         "Frog <br> Push-up <br> Crab <br> Split"],
@@ -215,7 +215,7 @@ gymnasticsAndPower = pd.DataFrame(
                                         "Moneymaker"]],
                                         columns=("Level", "Gymnastics", "Power"))
 
-st.markdown(gymnasticsAndPower.to_html(index=False), unsafe_allow_html=True)
+st.markdown(gymnasticsAndPower.to_html(index=False, escape=False), unsafe_allow_html=True)
 st.write("")
 
 st.write("""### Gymnastics and Power Modifiers
@@ -248,7 +248,7 @@ multiplesAndRopeManipulation = pd.DataFrame(
     ],
     columns=["Level", "Multiples", "Rope Manipulation"],
 )
-st.markdown(multiplesAndRopeManipulation.to_html(index=False), unsafe_allow_html=True)
+st.markdown(multiplesAndRopeManipulation.to_html(index=False, escape=False), unsafe_allow_html=True)
 st.write("")
 st.write('''
 > 
