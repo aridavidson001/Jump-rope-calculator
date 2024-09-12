@@ -102,45 +102,78 @@ def printOutput( presentation):
     return( output)
 st.header("Calculator")
 input = str(st.text_input(label="", placeholder="Input difficulty levels(2, 3, 4, etc.)"))
-with st.popover("Customize Presentation"):
+# with st.popover("Customize Presentation"):
+#     entertainment = st.slider("Entertainment", min_value=-0.15, max_value=0.15, value=0.00)
+#     execution = st.slider("Execution", min_value=-0.15, max_value=0.15, value=0.00)
+#     musicality = st.slider("Musicality", min_value=-0.12, max_value=0.12, value=0.00)
+#     creativity = st.slider("Creativity", min_value=-0.09, max_value=0.09, value=0.00)
+#     variety = st.slider("Variety", min_value=-0.09, max_value=0.09, value=0.00)
+
+# Checks if there is an input and if it works
+
+col1, col2 = st.columns(2)
+
+with col2:
+    st.write("Customize Presentation")
     entertainment = st.slider("Entertainment", min_value=-0.15, max_value=0.15, value=0.00)
     execution = st.slider("Execution", min_value=-0.15, max_value=0.15, value=0.00)
     musicality = st.slider("Musicality", min_value=-0.12, max_value=0.12, value=0.00)
     creativity = st.slider("Creativity", min_value=-0.09, max_value=0.09, value=0.00)
     variety = st.slider("Variety", min_value=-0.09, max_value=0.09, value=0.00)
 
-# Checks if there is an input and if it works
-if(input!= ""):
-    try:
-        difficulty = calculateNewDifficulty(editInput(input))
-        presentation = calculatePresentation(difficulty)
-        oldDifficulty = calculateOldDifficulty(editInput(input))
-        oldPresentation = calculatePresentation(oldDifficulty)
-        tab1, tab2 = st.tabs(["New Difficulty (Rulebook 4.0.0)", "Old Difficulty (Rulebook 3.0.0)"])
-        with tab1:
+with col1:
+    tab1, tab2 = st.tabs(["New (Rulebook 4.0.0)", "Old (Rulebook 3.0.0)"])
 
-            st.write("Difficulty: ", difficulty)
+with tab1:
+        if(input!= ""):
+            try:
+                difficulty = calculateNewDifficulty(editInput(input))
+                presentation = calculatePresentation(difficulty)
+                oldDifficulty = calculateOldDifficulty(editInput(input))
+                oldPresentation = calculatePresentation(oldDifficulty)
+       
+                st.write("Difficulty: ", difficulty)
+                st.write("Custom Presentation Score: ", round(calculateEditedPresentation(difficulty, entertainment, execution, musicality, creativity, variety), 2))
+                st.write("Custom Presentation Percent: ", round((entertainment+execution+musicality+creativity+variety), 2) * 100)
+                data = pd.DataFrame(printOutput(presentation), columns=("Presentation Type", "Max", "Min"))
+                st.dataframe(data, hide_index=True)
+            except ValueError:
+                st.write("Please check your input and make sure it follows the example, something isn't right!")
+        else:
+                difficulty = calculateNewDifficulty(editInput("0"))
+                presentation = calculatePresentation(difficulty)
+                data = pd.DataFrame(printOutput(presentation), columns=("Presentation Type", "Max", "Min"))
+                st.write("Difficulty: ", difficulty)
+                st.write("Custom Presentation Score: ", round(calculateEditedPresentation(difficulty, entertainment, execution, musicality, creativity, variety), 2))
+                st.write("Custom Presentation Percent: ", round((entertainment+execution+musicality+creativity+variety), 2) * 100)
+                st.dataframe(data, hide_index=True)
 
-            st.write("Custom Presentation Score: ", round(calculateEditedPresentation(difficulty, entertainment, execution, musicality, creativity, variety), 2))
-            st.write("Custom Presentation Percent: ", round((entertainment+execution+musicality+creativity+variety), 2) * 100)
-            data = pd.DataFrame(printOutput(presentation), columns=("Presentation Type", "Max", "Min"))
-            st.dataframe(data, hide_index=True)
-        with tab2:
-            st.write("Difficulty: ", oldDifficulty)
-            st.write("Custom Presentation Score: ", round(calculateEditedPresentation(oldDifficulty, entertainment, execution, musicality, creativity, variety), 2))
-            st.write("Custom Presentation Percent: ", (round((entertainment+execution+musicality+creativity+variety), 2) * 100))
-          
-            oldData = pd.DataFrame(printOutput(oldPresentation), columns=("Presentation Type", "Max", "Min"))
-            st.dataframe(oldData, hide_index=True)
-    except ValueError:
-        st.write("Please check your input and make sure it follows the example, something isn't right!")
-else:
-    difficulty = calculateNewDifficulty(editInput("0"))
-    presentation = calculatePresentation(difficulty)
-    data = pd.DataFrame(printOutput(presentation), columns=("Presentation Type", "Max", "Min"))
-    st.write("Difficulty: ", difficulty)
-    st.dataframe(data, hide_index=True)
+with tab2:
+        if(input!= ""):
+            try:
+                difficulty = calculateNewDifficulty(editInput(input))
+                presentation = calculatePresentation(difficulty)
+                oldDifficulty = calculateOldDifficulty(editInput(input))
+                oldPresentation = calculatePresentation(oldDifficulty)
+       
+                st.write("Difficulty: ", oldDifficulty)
+                st.write("Custom Presentation Score: ", round(calculateEditedPresentation(oldDifficulty, entertainment, execution, musicality, creativity, variety), 2))
+                st.write("Custom Presentation Percent: ", (round((entertainment+execution+musicality+creativity+variety), 2) * 100))
+        
+                oldData = pd.DataFrame(printOutput(oldPresentation), columns=("Presentation Type", "Max", "Min"))
+                st.dataframe(oldData, hide_index=True)
+            except ValueError:
+                st.write("Please check your input and make sure it follows the example, something isn't right!")
+        else:
+                oldDifficulty = calculateOldDifficulty(editInput("0"))
+                presentation = calculatePresentation(oldDifficulty)
+                data = pd.DataFrame(printOutput(presentation), columns=("Presentation Type", "Max", "Min"))
+                st.write("Difficulty: ", oldDifficulty)
+                st.write("Custom Presentation Score: ", round(calculateEditedPresentation(difficulty, entertainment, execution, musicality, creativity, variety), 2))
+                st.write("Custom Presentation Percent: ", round((entertainment+execution+musicality+creativity+variety), 2) * 100)
+                st.dataframe(data, hide_index=True)
 
+    
 st.header("Rule Change in Calculating Difficulty Score")
 st.write("The difficulty score will be the average of the power difficulty score, the wraps/releases difficulty score, and the multiples difficulty score.")
 st.write("This effectively changes the equation for calculating the difficulty of a trick from")
