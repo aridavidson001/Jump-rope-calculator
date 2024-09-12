@@ -116,18 +116,20 @@ if(input!= ""):
         presentation = calculatePresentation(difficulty)
         oldDifficulty = calculateOldDifficulty(editInput(input))
         oldPresentation = calculatePresentation(oldDifficulty)
-            
-        st.write("Custom Presentation Score: ", round(calculateEditedPresentation(difficulty, entertainment, execution, musicality, creativity, variety), 2))
+        tab1, tab2 = st.tabs(["New Difficulty(4.0.0)", "Old Difficulty(3.0.0)"])
+        with tab1:
 
-        col1, col2 = st.columns(2)
-        with col1:
-            st.subheader("New Difficulty(4.0.0)")
             st.write("Difficulty: ", difficulty)
+
+            st.write("Custom Presentation Score: ", round(calculateEditedPresentation(difficulty, entertainment, execution, musicality, creativity, variety), 2))
+            st.write("Custom Presentation Percent: ", (entertainment+execution+musicality+creativity+variety))
             data = pd.DataFrame(printOutput(presentation), columns=("Presentation Type", "Max", "Min"))
             st.dataframe(data, hide_index=True)
-        with col2:
-            st.subheader("Old Difficulty(3.0.0) for Reference")
+        with tab2:
             st.write("Difficulty: ", oldDifficulty)
+            st.write("Custom Presentation Score: ", round(calculateEditedPresentation(oldDifficulty, entertainment, execution, musicality, creativity, variety), 2))
+            st.write("Custom Presentation Percent: ", (entertainment+execution+musicality+creativity+variety))
+          
             oldData = pd.DataFrame(printOutput(oldPresentation), columns=("Presentation Type", "Max", "Min"))
             st.dataframe(oldData, hide_index=True)
     except ValueError:
