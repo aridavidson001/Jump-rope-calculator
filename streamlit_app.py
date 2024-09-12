@@ -121,14 +121,14 @@ if(input!= ""):
 
             st.write("Difficulty: ", difficulty)
 
-            st.write("Custom Presentation Score: ", round(calculateEditedPresentation(difficulty, entertainment, execution, musicality, creativity, variety), 2) * 100)
-            st.write("Custom Presentation Percent: ", round((entertainment+execution+musicality+creativity+variety)), 2)
+            st.write("Custom Presentation Score: ", round(calculateEditedPresentation(difficulty, entertainment, execution, musicality, creativity, variety), 2)
+            st.write("Custom Presentation Percent: ", round((entertainment+execution+musicality+creativity+variety), 2) * 100)
             data = pd.DataFrame(printOutput(presentation), columns=("Presentation Type", "Max", "Min"))
             st.dataframe(data, hide_index=True)
         with tab2:
             st.write("Difficulty: ", oldDifficulty)
-            st.write("Custom Presentation Score: ", round(calculateEditedPresentation(oldDifficulty, entertainment, execution, musicality, creativity, variety), 2) * 100)
-            st.write("Custom Presentation Percent: ", round((entertainment+execution+musicality+creativity+variety)), 2)
+            st.write("Custom Presentation Score: ", round(calculateEditedPresentation(oldDifficulty, entertainment, execution, musicality, creativity, variety), 2)
+            st.write("Custom Presentation Percent: ", (round((entertainment+execution+musicality+creativity+variety), 2) * 100))
           
             oldData = pd.DataFrame(printOutput(oldPresentation), columns=("Presentation Type", "Max", "Min"))
             st.dataframe(oldData, hide_index=True)
