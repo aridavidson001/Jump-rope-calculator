@@ -116,7 +116,7 @@ if(input!= ""):
         presentation = calculatePresentation(difficulty)
         oldDifficulty = calculateOldDifficulty(editInput(input))
         oldPresentation = calculatePresentation(oldDifficulty)
-        tab1, tab2 = st.tabs(["New Difficulty(4.0.0)", "Old Difficulty(3.0.0)"])
+        tab1, tab2 = st.tabs(["New Difficulty (Rulebook 4.0.0)", "Old Difficulty (Rulebook 3.0.0)"])
         with tab1:
 
             st.write("Difficulty: ", difficulty)
