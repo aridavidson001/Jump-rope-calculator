@@ -1,5 +1,5 @@
 import streamlit as st
-
+import pandas as pd
 st.title("Jump Rope Freestyle Score Calculator!")
 url = "https://rules.ijru.sport/technical-manual/calculations/freestyle/single-rope"
 st.subheader("Scoring Calculations and Rules Taken From [IJRU Rulebook 4.0.0](%s)" % url)
@@ -24,12 +24,19 @@ def getPointValue(level):
 
 
 #cycles through all tricks and adds difficulty together
-def calculateDifficulty(input):
+def calculateNewDifficulty(input):
     totalDifficultyRaw = 0
     for trick in input:
         totalDifficultyRaw = round(
             (totalDifficultyRaw + getPointValue(int(trick))), 2)
     averagedDifficulty = round((totalDifficultyRaw/3), 2)
+    return (averagedDifficulty)
+def calculateOldDifficulty(input):
+    totalDifficultyRaw = 0
+    for trick in input:
+        totalDifficultyRaw = round(
+            (totalDifficultyRaw + getPointValue(int(trick))), 2)
+    averagedDifficulty = round((totalDifficultyRaw), 2)
     return (averagedDifficulty)
 
 
@@ -56,13 +63,19 @@ def calculatePresentation(totalScore):
         (totalScore - (totalScore * minCreativityPercent)), 2)
     maxWithVariety = round((totalScore + (totalScore * minVarietyPercent)), 2)
     minWithVariety = round((totalScore - (totalScore * minVarietyPercent)), 2)
-
-    return ([
-        maxWithPresentation, minWithPresentation, maxWithEntertainment,
-        minWithEntertainment, maxWithExecution, minWithExecution,
-        maxWithMusicality, minWithMusicality, maxWithCreativity,
-        minWithCreativity, maxWithVariety, minWithVariety
-    ])
+    dict = {"presMax": maxWithPresentation,
+        "presMin":  minWithPresentation,
+        "entertainMax": maxWithEntertainment,
+        "entertainMin": minWithEntertainment,
+        "execMax": maxWithExecution,
+        "execMin": minWithExecution,
+        "musicMax": maxWithMusicality,
+        "musicMin": minWithMusicality,
+        "createMax": maxWithCreativity,
+        "createMin": minWithCreativity,
+        "varietyMax": maxWithVariety,
+        "varietyMin": minWithVariety}
+    return (dict)
 
 
 #takes input and turns it into a list of tricks
@@ -77,46 +90,52 @@ def editInput(text):
 
 
 #prints the output
-def printOutput(totalDifficultyRaw, presentation):
-    return(["Averaged Difficulty Score:", totalDifficultyRaw, "", ""],
-    ["Presentation Max:", presentation[0], "Min:", presentation[1]],
-    ["Entertainment Max:", presentation[2], "Min:", presentation[3]],
-    ["Execution Max:", presentation[4], "Min:", presentation[5]],
-    ["Musicality Max:", presentation[6], "Min:", presentation[7]],
-    ["Creativity Max:", presentation[8], "Min:", presentation[9]],
-    ["Variety Max:", presentation[10], "Min:", presentation[11]])
-st.subheader("Calculator")
+def printOutput( presentation):
+    output = [
+    ["Presentation", presentation["presMax"], presentation["presMin"]],
+    ["Entertainment", presentation["entertainMax"], presentation["entertainMin"]],
+    ["Execution", presentation["execMax"],  presentation["execMin"]],
+    ["Musicality", presentation["musicMax"],  presentation["musicMin"]],
+    ["Creativity", presentation["createMax"],  presentation["createMin"]],
+    ["Variety", presentation["varietyMax"],  presentation["varietyMin"]]]
+    return( output)
+st.header("Calculator")
 input = str(st.text_input(label="", placeholder="Input difficulty levels(2, 3, 4, etc.)"))
 # Checks if there is an input and if it works
 if(input!= ""):
     try:
-        difficulty = calculateDifficulty(editInput(input))
-        presentation = calculatePresentation(difficulty)
-        st.dataframe(printOutput(difficulty, presentation), hide_index=True)
-
+        col1, col2 = st.columns(2)
+        with col1:
+            difficulty = calculateNewDifficulty(editInput(input))
+            presentation = calculatePresentation(difficulty)
+            st.subheader("New Difficulty(4.0.0)")
+            st.write("Difficulty: ", difficulty)
+            data = pd.DataFrame(printOutput(presentation), columns=("Presentation Type", "Max", "Min"))
+            st.dataframe(data, hide_index=True)
+        with col2:
+            st.subheader("Old Difficulty(3.0.0) for Reference")
+            oldDifficulty = calculateOldDifficulty(editInput(input))
+            oldPresentation = calculatePresentation(oldDifficulty)
+            st.write("Difficulty: ", oldDifficulty)
+            oldData = pd.DataFrame(printOutput(oldPresentation), columns=("Presentation Type", "Max", "Min"))
+            st.dataframe(oldData, hide_index=True)
     except ValueError:
         st.write("Please check your input and make sure it follows the example, something isn't right!")
 else:
-    difficulty = calculateDifficulty(editInput("0"))
+    difficulty = calculateNewDifficulty(editInput("0"))
     presentation = calculatePresentation(difficulty)
-    st.dataframe(printOutput(difficulty, presentation), hide_index=True)
-    print(printOutput(difficulty, presentation))
-st.markdown('''
-### Rule Change in Calculating Difficulty Score
-The difficulty score will be the average of the power difficulty score, the wraps/releases difficulty score, and the multiples difficulty score
-
-            
-This effectively changes the equation for calculating the difficulty of a trick from 
-            
-$\ D = 0.1*1.5^x $ 
-            
-to 
-            
-$\ D = \dfrac{0.1*1.5^x}{3} $\
-            
-
-As a result, these are the new point values for different levels compared to the old point values
-            
+    data = pd.DataFrame(printOutput(presentation), columns=("Presentation Type", "Max", "Min"))
+    st.write("Difficulty: ", difficulty)
+    st.dataframe(data, hide_index=True)
+    print(printOutput(presentation))
+st.header("Rule Change in Calculating Difficulty Score")
+st.write("The difficulty score will be the average of the power difficulty score, the wraps/releases difficulty score, and the multiples difficulty score.")
+st.write("This effectively changes the equation for calculating the difficulty of a trick from")
+st.write("$\ D = 0.1*1.5^x $")
+st.write("to")
+st.write("$\ D = \dfrac{0.1*1.5^x}{3} $")
+st.write("As a result, these are the new point values for different levels compared to the old point values.")
+st.write('''
 | Level | Old Point Value | New Point Value|
 | ---  | --- | --- |
 | 0.5  | 0.12 | 0.04 |
